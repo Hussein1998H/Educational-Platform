@@ -5,6 +5,11 @@
         "dev": "vite",
         "build": "vite build"
     },
+
+    "scripts": {
+        "build": "[my-framework] build --output public"
+    },
+
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
         "axios": "^1.6.4",
